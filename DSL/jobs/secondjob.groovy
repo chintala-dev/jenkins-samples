@@ -13,4 +13,5 @@ job('Second DSL Job') {
             command('echo $hostName')
             command('ls -lart ansible_projects')
         }
+    }
 }
