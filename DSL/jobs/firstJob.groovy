@@ -6,6 +6,6 @@ job('First DSL Job') {
         }
     }
     steps {
-        shell("Hello Wrold")
+        shell("echo 'Hello Wrold'")
     }
 }
