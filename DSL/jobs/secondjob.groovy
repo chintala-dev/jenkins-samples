@@ -10,7 +10,7 @@ job('Second DSL Job') {
 //    }
     steps {
         remoteShell('appadmin@10.200.1.4:22') {
-            command('hostName')
+            command('hostname')
             command('ls -lart ansible_projects')
             command(readFileFromWorkspace('DSL/jobs/secondjob.sh'))
         }
