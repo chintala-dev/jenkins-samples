@@ -1,4 +1,4 @@
-job ("$NEW_PROJECT_NAME") {
+job ("Choice Parameters Job") {
     parameters {
         activeChoiceParam('States') {
             description('Select a state option')
